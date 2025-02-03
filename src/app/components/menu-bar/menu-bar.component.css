@@ -1,0 +1,23 @@
+.container__menu-bar {
+    margin-top: 15px;
+}
+
+.container__menu-bar > ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.container__menu-bar > ul > li {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	list-style: none;
+	margin-right: 20px;
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.container__menu-bar > ul > li > img {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	border-radius: 5px;
+}
