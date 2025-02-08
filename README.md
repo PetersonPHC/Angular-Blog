@@ -1,59 +1,54 @@
-# AngularBlog
+# Blog Peterson
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+Este é um projeto de blog desenvolvido com o framework Angular 19. O objetivo principal foi criar uma interface semelhante a um design proposto, utilizando componentes e rotas do Angular. Além disso, o blog será utilizado para exibir meus projetos pessoais, que serão integrados à interface para que possam ser visualizados no meu GitHub.
 
-## Development server
+## Funcionalidades
 
-To start a local development server, run:
+- **Componentes Reutilizáveis**: O projeto foi desenvolvido com foco na criação de componentes reutilizáveis, seguindo as boas práticas do Angular.
+- **Rotas**: Utilização de rotas para navegação entre diferentes seções do blog.
+- **Design Responsivo**: A interface foi desenvolvida para ser responsiva, garantindo uma boa experiência em dispositivos móveis e desktops.
+- **Integração com Projetos Pessoais**: O blog será utilizado para exibir meus projetos pessoais, integrando-os à interface.
 
-```bash
-ng serve
-```
+## Tecnologias Utilizadas
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Angular 19**: Framework utilizado para a construção da aplicação.
+- **HTML5 e CSS3**: Para a estruturação e estilização da interface.
+- **TypeScript**: Linguagem principal para a lógica da aplicação.
 
-## Code scaffolding
+## Design Proposto
+![Reference Design](design/reference-blog-image.png)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Design Desenvolvido _(A Parte 2 da página ainda será implementada)_
+![Implemented Design](design/HomePage_BlogPeterson_Angular19.png)
 
-```bash
-ng generate component component-name
-```
+## Como Executar o Projeto _(Não Esqueça Você deve ter o AngularCLI Instalado em sua Máquina)_
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. **Abra o Projeto em sua IDE de Preferencia(Utilizei o VSCODE)**:
 
-```bash
-ng generate --help
-```
+2. **Instale as dependências**:
+   ```bash
+    npm install
+   ```
+3. **Execute o servidor de desenvolvimento**:
+   ```bash
+    ng serve
+   ```
+4. **Acesse a aplicação**:
+   Abra o navegador e acesse `http://localhost:4200/`.
 
-## Building
+## Estrutura do Projeto
 
-To build the project run:
+- **`src/app`**: Contém os componentes, serviços, páginas e módulos da aplicação.
+- **`public/`**: Arquivos estáticos como imagens e ícones.
+- **`src/styles.css`**: Estilos globais da aplicação.
+- **`src/index.html`**: Página principal da aplicação.
 
-```bash
-ng build
-```
+## Contribuição
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga os passos abaixo:
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Commit suas mudanças (`git commit -m 'Adicionando nova feature'`).
+4. Push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
