@@ -1,7 +1,7 @@
 export const data = [
     {
         id:"1",
-        photocover: "/img/Print_API-Carometro-Github.png",
+        photocover: "img/Print_API-Carometro-Github.png",
         title: "Carômetro para Alunos FATEC ZL",
         description:
         `    O projeto do Sistema de Carômetro foi desenvolvido com o objetivo de integrar um carômetro ao site da FATEC Zona Leste. Esse sistema visa aprimorar a organização e visualização das informações acadêmicas, fornecendo um ambiente moderno e eficiente para alunos e professores.
@@ -18,7 +18,7 @@ export const data = [
     },
     {
         id:"2",
-        photocover: "/img/DockerImage-MyPokedex.png",
+        photocover: "img/DockerImage-MyPokedex.png",
         title: "Docker Container Image - My Pokedex",
         description:
         `The "My Pokedex" Docker image provides an interactive and user-friendly way to explore detailed Pokémon information. Built with HTML, CSS, and JavaScript, this web-based application offers a seamless browsing experience while maintaining a lightweight and efficient structure. By using Docker, users can effortlessly run the application inside a container, making it accessible through any web browser with minimal setup.
@@ -31,7 +31,7 @@ export const data = [
     },
     {
         id:"3",
-        photocover: "/img/print_Interface-Netflix.png",
+        photocover: "img/print_Interface-Netflix.png",
         title: "Netflix Interface Clone",
         description:
         `A releitura da interface da Netflix foi desenvolvida utilizando HTML, CSS, JavaScript e Bootstrap, garantindo uma estrutura bem organizada, estilização aprimorada e interatividade dinâmica. O design da página inicial foi cuidadosamente planejado para manter a identidade visual da plataforma original, ao mesmo tempo em que oferece uma experiência mais fluida e acessível. Com um layout responsivo e elementos visuais modernos, a interface proporciona uma navegação intuitiva para os usuários.
@@ -42,7 +42,7 @@ export const data = [
     },
     {
         id:"4",
-        photocover: "/img/CapturaTestesDoAppManipuladorDeTarefas.png",
+        photocover: "img/CapturaTestesDoAppManipuladorDeTarefas.png",
         title: "Manipulador de Tarefas - 100% Coverage",
         description:
         `Este projeto é uma API RESTful desenvolvida com Spring Boot que realiza todas as operações de CRUD(Create, Read, Update, Delete) em tarefas. O sistema também implementa um controlador de exceções(ApplicationControllerAdvice) que gerencia erros específicos da aplicação.
