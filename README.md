@@ -1,4 +1,5 @@
 # Blog Peterson
+## *[Acesse o Blog Aqui!](https://petersonphc.github.io/Angular-Blog/home)* 
 
 Este é um projeto de blog desenvolvido com o framework Angular 19. O objetivo principal foi criar uma interface semelhante a um design proposto, utilizando componentes e rotas do Angular. Além disso, o blog será utilizado para exibir meus projetos pessoais, que serão integrados à interface para que possam ser visualizados no meu GitHub.
 
